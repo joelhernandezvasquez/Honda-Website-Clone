@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+header .main-nav .menu {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #dadce0;
+  padding: 0.5rem 2rem;
+}
+
+header .main-nav .menu .items {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .main-nav .menu .items i {
+  font-size: 1.7rem;
+}
+
+header .main-nav .menu .items h3 {
+  position: absolute;
+  top: 45px;
+  color: black;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+header .main-nav .menu li:first-child span {
+  font-size: 0.8rem;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+header .main-nav .menu li:nth-child(2) a {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .main-nav .menu li:nth-child(3) a {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
